@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RentUsNow</title>
+        <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="check_page.css">
+        <script src="customer_home_page.js"></script>
+    </head>
+    <body>
+        <div class="mainPageContainer">
+            <div class="purchaseData">
+                <div class="dates">
+                    <div>
+                        <p>Pickup Date: <span id="pickupDate">dd-mm-yyyy</span></p>
+                    </div>
+                    <div>
+                        <p>Return Date: <span id="returnDate">dd-mm-yyyy</span></p>
+                    </div>
+                </div>
+                <div class="carData">
+                    <div>
+                        <p>Model: <span id="model">model</span></p>
+                    </div>
+                    <div>
+                        <p>Brand: <span id="brand">brand</span> </p>
+                    </div>
+                    <div>
+                        <p>Year: <span id="year">year</span></p>
+                    </div>
+                    <div>
+                        <p>Color: <span id="color">color</span></p>
+                    </div>
+                </div>
+                <div class="prices">
+                    <div>
+                        <p>Price/Day: <span id="pricePerDay">price</span></p>
+                    </div>
+                    <div>
+                        <p>Total Price: <span id="totalPrice">totalPrice</span></p>
+                    </div>
+                </div>
+                <div class="prices">
+                    <div>
+                        <p>Have a Good Day! ^_^</p>
+                    </div>
+                </div>
+            </div>
+            <div class="purchaseBtnContainer">
+                <button class="purchaseBtn">Confirm Purchase</button>
+            </div>
+        </div>
+    </body>
+</html>

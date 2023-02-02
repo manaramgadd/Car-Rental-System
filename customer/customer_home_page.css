@@ -1,0 +1,130 @@
+body{
+    font-family: sans-serif;
+    background-image: url('../wel.jpg');
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.navbar{
+    height: 80px;
+}
+
+/*---------------------- WECLOME DIV -------------------------*/
+.welcomeUser{
+    margin: auto;
+    width: 95%;
+    border-radius: 20px;
+    background-color: antiquewhite;
+    text-align: center;
+    height: 80px;
+}
+
+.welcomeUser{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.welcomeUser h1{
+    margin-top: 15px;
+}
+
+.welcomeUser a{
+    padding-top: 10px;
+    margin-top: 15px;
+    background-color: #00bcc9;
+    height: 50px;
+    width: 6%;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.welcomeUser a:hover{
+    background-color: #008b8b;
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------*/
+
+/*---------------------- CAR DATA DIV ------------------------*/
+.carData{
+    margin: auto;
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+/*------------------------ SEARCH DIV ------------------------*/
+form.search input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.search{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}  
+
+form.search button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
+  
+  
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.searchBy{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+}
+
+.search p{
+    color: white;
+    font-size: 20px;
+}
+
+/*------------------------------------------------------------*/
+.tableData{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.table{
+    border: 1px solid black;
+}
+
+.table-image td{
+      vertical-align: middle;
+}
+
+.table-image th{
+    vertical-align: middle;
+}
+
+img:hover{
+    cursor: pointer;
+}
+/*------------------------------------------------------------*/

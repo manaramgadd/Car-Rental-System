@@ -1,0 +1,22 @@
+body{
+    font-family: sans-serif;
+    background-image: url('../wel.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+..container{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-color: black;
+}
+
+..tableContainer{
+    margin: auto;
+    margin-top: 50px;
+}

@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    background-image: url('../chev.jpg');
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;    color: whitesmoke;
+}
+/*-------------------- WHOLE PAGE DIV ------------------------*/
+.rentContainer{
+    margin: auto;
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #343a40;
+    text-align: center;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*------------------------ IMG DIV ---------------------------*/
+.imgContainer{
+    margin-top: 20px;
+    width: 50%;
+}
+
+.rentData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputRent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+#rentDateID{
+    margin-bottom: 10px;
+}
+
+#RentBtn{
+    width: 90px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+#RentBtn:hover{
+    cursor: pointer;
+}

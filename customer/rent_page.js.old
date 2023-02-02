@@ -1,0 +1,15 @@
+function load(){
+    $(document).ready(function() {
+        $.ajax({
+            type: "GET",
+            url: "rent_cars.php",
+            dataType: "html",
+            cache: false,
+            success: function (data) {
+                $("#car").html(data);
+                console.log(data);
+            }
+        });
+
+    });
+}

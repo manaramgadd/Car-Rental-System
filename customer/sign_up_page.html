@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RentUsNow - Welcome!</title>
+        <link rel="stylesheet" href="sign_up_page.css">
+        <script src="sign_up_page.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <h1>RentUsNow</h1>
+        </div>
+        <div class="mainPageContainer">
+            <div class="imgContainer">
+                <img src="home_img.png" alt="welcome" width="95%">
+            </div>
+            <div class="container">
+                    <div class="loginDetails">
+                        <form action="./login.php" onsubmit="return checkFields()" name="signUpForm" method="post">
+                            <div class="input" name="container">
+                                <label for="email">Email</label>
+                                <input type="text" id="emailID" name="email"> 
+                                <label for="email" id="emailValidate">* Enter Email in the Correct Form!!!</label><br>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password">
+                                <label for="password" id="passValidate">* Enter Password!!!</label><br>
+                                <label for="confirmPassword">Confirm Password</label>
+                                <input type="password" id="passwordConifrm" name="confirmPassword">
+                                <label for="confirmPassword" id="passConfirmValidate">* Confirm Password Correctly!!!</label><br>
+                                <label for="ssn">SSN</label>
+                                <input type="text" id="ssn" name="ssn"> 
+                                <label for="ssn" id="ssnValidate">* Enter  SSN!!!</label><br>
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="fname"> 
+                                <label for="fname" id="fnameValidate">* Enter Your First Name!!!</label><br>
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lname"> 
+                                <label for="lname" id="lnameValidate">* Enter Your Last Name!!!</label><br>
+                                <label for="pnum">Phone Number</label>
+                                <input type="text" id="pnum" name="pnum"> 
+                                <label for="pnum" id="pnumValidate">* Enter Your Phone Number!!!</label><br>
+                                <label for="bdate">Birth Date</label>
+                                <input type="date" id="bdate" name="bdate"> 
+                                <label for="bdate" id="bdateValidate">* Enter Your Birth Date!!!</label><br>
+                                <div class="genderSelect">
+                                    <p>Gender:</p>
+                                    <div class="gender">
+                                        <input type="radio" id="male" name="gender" value="male">
+                                        <label for="gender">Male</label>
+                                    </div>
+                                    <div class="gender">
+                                        <input type="radio" id="female" name="gender" value="female">
+                                        <label for="gender">Female</label>
+                                    </div>
+                                </div>
+                                <label for="gender" id="genderValidate">* Enter Your Gender!!!</label><br>
+                            </div>
+                            <div class="btn">
+                                <input type="submit" value="Sign Up" id="SignUpBtn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

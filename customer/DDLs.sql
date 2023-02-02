@@ -1,0 +1,3 @@
+INSERT INTO admin (admin_id,first_name,last_name,gender,date_of_birth,email,`password`) VALUES (1,"admin","admin",'M',"2001-4-17","test@test.com","12345");
+INSERT INTO office (office_id,country,city,admin_id) VALUES (111,"EG","Alex",1);
+INSERT INTO car (plate_number, model,brand,`year`,`status`,color,price_per_day,office_id,is_reserved,picture_path) VALUES ("12345","reanult","sandero",2019,"Active","blue",1000.5,12,'Y',"./home_img.png");

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RentUsNow</title>
+        <link rel="stylesheet" href="rent_page.css">
+    </head>
+    <body onload="load()">
+        <div class="rentContainer">
+            <div class="imgContainer" id="car">
+                
+            </div>
+            <div class="rentData">
+                <form action="./check_page.html" onsubmit="return checkFields()" name="loginForm" method="post">
+                    <div class="inputRent" name="container">
+                        <label for="rentDate">Rent Date</label>
+                        <input type="date" id="rentDateID" name="rentDate"> 
+                        <label for="returnDate">Return Date:</label>
+                        <input type="date" id="returnDateID" name="returnDate">
+                    </div>
+                    <div class="btn">
+                        <input type="submit" value="Rent!" id="RentBtn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

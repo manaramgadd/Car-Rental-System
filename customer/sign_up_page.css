@@ -1,0 +1,168 @@
+body{
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+.title{
+    width: 80;
+    text-align: center;
+    margin: auto;
+    color: green;
+    font-size: 2em;
+}
+
+/*-------------------- WHOLE PAGE DIV ------------------------*/
+.mainPageContainer{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*------------------------ IMG DIV ---------------------------*/
+.imgContainer{
+    width: 50%;
+}
+/*------------------------------------------------------------*/
+
+/*------------------------ LOGIN DIV -------------------------*/
+.container{
+    width: 20%;
+    border: 1px black solid;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    height: 700px;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*------------------------ LOGIN DIV -------------------------*/
+.loginDetails{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*------------------------ INPUT DIV -------------------------*/
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#emailValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+
+#passValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+
+#passConfirmValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+
+#ssnValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+
+#fnameValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+
+#lnameValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+
+#pnumValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+
+#bdateValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+
+#genderValidate{
+    font-size: 0.85em;
+    font-weight: normal;
+    color: red;
+    visibility: hidden;
+}
+/*------------------------------------------------------------*/
+
+/*------------------------ BUTTON DIV ------------------------*/
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.btn{
+    width: 90px;
+    height: 50px;
+    background-color: #00bcc9;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+#SignUpBtn{
+    width: 90px;
+    height: 50px;
+    background-color: #00bcc9;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+#SignUpBtn:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+}
+
+.genderSelect{
+    display: flex;
+    flex-direction: row;
+}
+
+.gender{
+    margin-top: 17px;
+}
+
+/*------------------------------------------------------------*/
+/*------------------------------------------------------------*/
+/*------------------------------------------------------------*/

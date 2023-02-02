@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RentUsNow - Welcome!</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="title">
+            <h1>RentUsNow</h1>
+        </div>
+        <div class="mainPageContainer">
+            <div class="imgContainer">
+                <img src="home_img.png" alt="welcome" width="95%">
+            </div>
+            <div class="container">
+                <div class="welcome">
+                    <p>Welcome!</p>
+                </div>
+                    <div class="loginDetails">
+                        <form action="./login.php" onsubmit="return checkFields()" name="loginForm" method="post">
+                            <div class="input" name="container">
+                                <label for="email">Email</label>
+                                <input type="text" id="emailID" name="email"> 
+                                <label for="email" id="emailValidate">* Enter Email in the Correct Form!!!</label><br>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password">
+                                <label for="pass" id="passValidate">* Enter Password!!!</label><br>
+                            </div>
+                            <div class="btn">
+                                <input type="submit" value="Login" id="loginBtn">
+                            </div>
+                        </form>
+                        <div class="signUpLink">
+                            <a href="./sign_up_page.html">Sign Up!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
