@@ -1,10 +1,11 @@
 # Car-Rental-System
 Car Rental company asked you to implement a system with the following features:
- The system should be able to register a new car (model, year, plate id, etc.) and update 
+
+-The system should be able to register a new car (model, year, plate id, etc.) and update 
 car status (active, out of service, rented, etc.),
- Customers will be able to reserve their cars from anywhere in the world via this system
-(Multiple offices). 
- Customers provide information to this application by filling in their personal 
+Customers will be able to reserve their cars from anywhere in the world via this system
+(Multiple offices).
+ Customers provide information to this application by filling in their personal 
 information to create an account and then he or she can reserve a car. 
  The proposed system effectively and efficiently automates manual procedures for car 
 reservation (reserve, pick up, return, payment, etc.). 
